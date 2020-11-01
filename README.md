@@ -26,6 +26,11 @@ I also added a IFTTT for help, just in case I forget what I can say - I just hav
 "Help Relay" or "What can I say relay".   
 IFTTT still needs an action, so I setup a webhook that goes no where - IFTTT was happy, and this worked (much to my surprise).  
 
+## Libraries
+
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
+
+
 ## Software
 
 Libraries used:  

@@ -16,12 +16,12 @@
  
  */
 
-#include <Dweet.h> //https://github.com/quentinpigne/arduino-dweet.io
+#include "src/Dweet/Dweet.h" //https://github.com/quentinpigne/arduino-dweet.io
 #include <ESP8266WiFi.h>
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
-#include <WiFiManager.h>         //https://github.com/tzapu/WiFiManager
-#include <ArduinoJson.h>
+#include "src/WiFiManager/WiFiManager.h"         //https://github.com/tzapu/WiFiManager
+#include "src/ArduinoJson/ArduinoJson.h"
 
 #define relayPin D1
 
@@ -90,5 +90,3 @@ void getMode() {
   //  ESP.wdtFeed();
   //yield();
 }
-
-
